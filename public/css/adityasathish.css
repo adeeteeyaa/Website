@@ -87,6 +87,19 @@
   color: rgba(32, 32, 32, 0.8);
 }
 
+.grid-item-badge {
+    display: inline-block;
+    background-color: #0366d6; /* Solid GitHub Blue */
+    color: #ffffff;            /* White text for contrast */
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 4px 10px;        /* More padding for the "sticker" feel */
+    border-radius: 6px;       /* Rounded square corners */
+    margin: 5px 0;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle lift */
+}
+
 .scholar-box {
     display: flex;
     flex-direction: column;

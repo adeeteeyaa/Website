@@ -126,6 +126,7 @@ I have spent the last {% assign start_year = 2017 %}{% assign start_month = 8 %}
 </div>
 
 ## Publications
+
 <div class="grid">
 {% for item in site.data.publications %}
   <div class="grid-item">
@@ -139,6 +140,11 @@ I have spent the last {% assign start_year = 2017 %}{% assign start_month = 8 %}
           {% endif %}
         </h4>
         <div class="grid-item-subtext">{{ item.authors | markdownify }}</div>
+        {% if item.award %}
+          <div class="grid-item-badge">
+            {{ item.award }}
+          </div>
+        {% endif %}
         <div class="grid-item-subtext"><i>{{ item.publisher }}</i></div>
         <div class="grid-item-subtext"><i>{{ item.status }}</i></div>
       </div>

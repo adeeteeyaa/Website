@@ -1,0 +1,15 @@
+current directory: /Users/adityastsh/Gits/adityasathis/website/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/adityastsh/.rubies/ruby-3.1.4/bin/ruby -I /Users/adityastsh/.rubies/ruby-3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/adityastsh/Gits/adityasathis/website/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260206-76436-b54zl sitelibdir\=./.gem.20260206-76436-b54zl clean
+
+current directory: /Users/adityastsh/Gits/adityasathis/website/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260206-76436-b54zl sitelibdir\=./.gem.20260206-76436-b54zl
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/adityastsh/Gits/adityasathis/website/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260206-76436-b54zl sitelibdir\=./.gem.20260206-76436-b54zl install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20260206-76436-b54zl/racc

@@ -1,7 +1,16 @@
 source "https://rubygems.org"
 
-# This gem helps your local machine mimic GitHub Pages exactly
 gem "github-pages", group: :jekyll_plugins
-
-# Add this for the live reload feature we discussed
 gem "jekyll-livereload", group: :jekyll_plugins
+
+# Required for local development on modern Ruby (3.0+)
+gem "webrick"    # The web server
+gem "csv"        # Required for data-driven pages
+gem "bigdecimal" # Required for Liquid math filters
+
+# Required for OSX
+# gem "csv"
+# gem "webrick"
+# gem "bigdecimal"
+# gem "base64"
+# gem "mutex_m"

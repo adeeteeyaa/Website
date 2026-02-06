@@ -3,15 +3,13 @@ layout: default
 title: Home
 ---
 
-Hi there and thank you for visiting my little spot on the internet! This website serves as a little window into who I am, what I do and what I think about.
+Hello! My name is Aditya Sathish and I am a Senior Engineer at Qualcomm's IEEE 802.11 Wi-Fi AP software team where I work on the design and architecture for Qualcomm's [Wi-Fi access point (AP)](https://www.qualcomm.com/wi-fi) system software.
 
-I'm a Senior Engineer at Qualcomm in the IEEE 802.11 Wi-Fi AP software team and work on the design and architecture for Qualcomm's Wi-Fi access point system software. Before this, I was a Graduate Student at Virginia Tech and a researcher at the Commonwealth Cyber Initiative.
-
-Below you will find information about my education, work experience, publications, skillset and a little about things I do outside of work.
+My research and development interests are in: wireless communications, Wi-Fi, 3GPP 5G/6G, non-terrestrial networks, AI/ML in wireless, spectrum sharing, coexistence, hardware prototyping and experimentation.
 
 # Education
-As of today, {{ site.time | date: "%B" }} {% assign day = site.time | date: "%-d" %} {% case day %} {% when '1' or '21' or '31' %}{{ day }}st {% when '2' or '22' %}{{ day }}nd {% when '3' or '23' %}{{ day }}rd {% else %}{{ day }}th {% endcase %} {{ site.time | date: "%Y" }},
- I have two degrees.
+<!-- As of today, {{ site.time | date: "%B" }} {% assign day = site.time | date: "%-d" %} {% case day %} {% when '1' or '21' or '31' %}{{ day }}st {% when '2' or '22' %}{{ day }}nd {% when '3' or '23' %}{{ day }}rd {% else %}{{ day }}th {% endcase %} {{ site.time | date: "%Y" }},
+ I have two degrees. -->
 <div class="grid">
 {% for item in site.data.education %}
   <div class="grid-item">
@@ -41,7 +39,7 @@ As of today, {{ site.time | date: "%B" }} {% assign day = site.time | date: "%-d
 </div>
 
 # Experience
-I have spent the last {% assign start_year = 2017 %}{% assign start_month = 8 %}{% assign start_day = 23 %}{% comment %} Get current date components as numbers {% endcomment %}{% assign current_year = "now" | date: "%Y" | plus: 0 %}{% assign current_month = "now" | date: "%m" | plus: 0 %}{% assign current_day = "now" | date: "%d" | plus: 0 %}{% comment %} Calculate raw year difference {% endcomment %}{% assign age = current_year | minus: start_year %} {% comment %} Subtract 1 if we haven't reached August 23rd yet this year {% endcomment %} {% if current_month < start_month %} {% assign age = age | minus: 1 %}{% elsif current_month == start_month and current_day < start_day %}{% assign age = age | minus: 1 %}{% endif %}{{ age }} years or so working closely on local and wide-area wireless communication systems - particularly Wi-Fi and 5G. While my job has always been in and around the Wi-Fi standard, I did complete a thesis in Virginia Tech focusing on the 3GPP 5G (and beyond) standard.
+<!-- I have spent the last {% assign start_year = 2017 %}{% assign start_month = 8 %}{% assign start_day = 23 %}{% comment %} Get current date components as numbers {% endcomment %}{% assign current_year = "now" | date: "%Y" | plus: 0 %}{% assign current_month = "now" | date: "%m" | plus: 0 %}{% assign current_day = "now" | date: "%d" | plus: 0 %}{% comment %} Calculate raw year difference {% endcomment %}{% assign age = current_year | minus: start_year %} {% comment %} Subtract 1 if we haven't reached August 23rd yet this year {% endcomment %} {% if current_month < start_month %} {% assign age = age | minus: 1 %}{% elsif current_month == start_month and current_day < start_day %}{% assign age = age | minus: 1 %}{% endif %}{{ age }} years or so working closely on local and wide-area wireless communication systems - particularly Wi-Fi and 5G. While my job has always been in and around the Wi-Fi standard, I did complete a thesis in Virginia Tech focusing on the 3GPP 5G (and beyond) standard. -->
 <div class="grid">
 {% for item in site.data.work %}
   <div class="grid-item">
@@ -153,8 +151,8 @@ I have spent the last {% assign start_year = 2017 %}{% assign start_month = 8 %}
   {% endfor %}   
 </div>
 
-## Reviews
-While I was at Virginia Tech, I was fortunate enough to be part of the Technical Program Commitee (TPC) in a few conferences.
+## Reviewer
+<!-- While I was at Virginia Tech, I was fortunate enough to be part of the Technical Program Commitee (TPC) in a few conferences. -->
 <div class="grid">
 {% for item in site.data.reviewer %}
   <div class="grid-item">
@@ -177,8 +175,9 @@ While I was at Virginia Tech, I was fortunate enough to be part of the Technical
   {% endfor %}   
 </div>
 
-# Sides
-When I'm not working, I like to spend a lot of time working on finding a way to organize my life, tinkering with software and hardware, working on cars and a little bit of photography and content creation with my wife. More to follow on this space.
+<!-- # Sides -->
+<!-- TBD -->
+<!-- When I'm not working, I like to spend a lot of time working on finding a way to organize my life, tinkering with software and hardware, working on cars and a little bit of photography and content creation with my wife. More to follow on this space. -->
 
 <script>
   const dataUrl = 'https://raw.githubusercontent.com/adeeteeyaa/website/refs/heads/scholar-data/scholar/results/gs_stats.json';
